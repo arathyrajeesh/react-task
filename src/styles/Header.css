@@ -1,0 +1,26 @@
+header {
+    color:black;
+    padding: auto;
+}
+.list-items ul{
+    list-style-type: none;
+    gap: 20px;
+    display: flex;
+}
+.list-items button{
+    border: none;
+    background-color: rgb(51, 122, 51);
+    color: white;
+    font-size: 20px;
+}
+.list-items a{
+    text-decoration: none;
+    color: black;
+}
+.items{
+    display: flex;
+    justify-content:space-evenly;
+}
+.items img{
+    width: 50px;
+}
