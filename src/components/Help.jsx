@@ -1,14 +1,10 @@
-import '../styles/help.css'
-
-
-
+import '../styles/help.css';
 
 const Help = () => {
-
     return(
-        <section>
+        <section className="stats-section">
             <div className='container'>
-                <div className='help'>
+                <div className='help-content'>
                     <div className="stats-left">
                         <h2>Helping a local <br/><span>business reinvent itself</span></h2>
                         <p>We reached here with our hard work and dedication</p>
@@ -42,8 +38,7 @@ const Help = () => {
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};
 
-
-export default Help
+export default Help;
