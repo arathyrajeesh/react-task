@@ -11,6 +11,7 @@ import Spending from './components/Spending';
 import Help from './components/Help';
 import Design from './components/Design';
 import Customers from './components/Customers';
+import Marketing from './components/Marketing';
 
 
 
@@ -26,6 +27,7 @@ function App() {
     <Help/>
     <Design/>
     <Customers/>
+    <Marketing/>
     <Footer/>
     </>
   );

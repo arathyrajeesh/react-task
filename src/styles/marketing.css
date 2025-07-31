@@ -1,0 +1,46 @@
+
+.marketers {
+    text-align: center;
+    min-height: 400px;
+    min-width: 200px;
+}
+.marketers h2 {
+    font-size: 28px;
+    color: #111827;
+}
+
+.subheading {
+    color: #6b7280;
+    font-size: 20px;
+}
+
+.blog-cards {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    place-content: center;
+}
+
+.card {
+    background: #f9fafb;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+}
+
+.card img {
+    width:200px;
+    border-radius: 8px;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin: 12px 0;
+    color: #1f2937;
+}
+
+.card a {
+    color: #22c55e;
+    text-decoration: none;
+    font-weight: bold;
+}

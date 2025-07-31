@@ -1,3 +1,50 @@
-footer{
-    color:blue;
-}
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 50px 20px;
+  }
+  
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-brand h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+  }
+  
+  .footer-links div {
+    min-width: 150px;
+  }
+  
+  .footer-links h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 6px;
+  }
+  
+  .footer-links input {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+  }
+  

@@ -1,28 +1,29 @@
-.spending{
+
+.customers{
     min-height: 400px;
     min-width: 200px;
     display: flex;
     justify-content: center;
     gap: 300px;
+    background-color:rgb(204, 204, 240);
 }
-.spending img{
-    max-width: 300px;
-    min-height: 300px;
+.customers img{
+    width: 250px;
+    height: 300px;
 }
-.spending-content h1{
-    font-size: 30px;
+.customers-content{
+    width: 500px;
 }
-.spending-content button{
-    border: none;
+.customers-content h1{
+    color: green;
+}
+.customers-content img{
+    width: 50px;
+    height: 50px;
+    
+}
+.customers-content a{
+    text-decoration: none;
     font-size: 20px;
-    background-color:rgba(76, 175, 79, 1);
-    color: white;
-    border: 2px solid;
-    border-radius: 5px;
-    min-height: 50px;
-    min-width: 100px;
-}
-
-.spending-content{
-    max-width: 500px;
+    color: green;
 }
