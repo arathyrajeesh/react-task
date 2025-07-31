@@ -1,14 +1,13 @@
-import '../styles/Header.css'
-
-
+import '../styles/Header.css';
 
 const Header = () => {
-
     return(
-        <header>
-            <div className='items'>
-                <img src='/images/logo.svg'/>
-                <h1>Nexcent</h1>
+        <header className="site-header">
+            <div className='container header-content'>
+                <a href="#" className="logo-link">
+                    <img src='/images/logo.svg' alt="Nexcent logo" />
+                    <span>Nexcent</span>
+                </a>
                 <nav className='list-items'>
                     <ul>
                         <li><a href='#'>Home</a></li>
@@ -16,11 +15,12 @@ const Header = () => {
                         <li><a href='#'>Community</a></li>
                         <li><a href='#'>Blog</a></li>
                         <li><a href='#'>Pricing</a></li>
-                        <button>Register Now</button>
                     </ul>
                 </nav>
+                <button className="register-button">Register Now</button>
             </div>
         </header>
-    )
-}
-export default Header
+    );
+};
+
+export default Header;
