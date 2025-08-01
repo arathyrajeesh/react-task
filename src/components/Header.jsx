@@ -5,7 +5,7 @@ const Header = () => {
         <header className="site-header">
             <div className='container header-content'>
                 <a href="#" className="logo-link">
-                    <img src='/images/logo.svg' alt="Nexcent logo" />
+                    <img src='/images/logo.svg'  />
                     <span>Nexcent</span>
                 </a>
                 <nav className='list-items'>

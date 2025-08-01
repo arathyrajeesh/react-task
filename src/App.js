@@ -12,7 +12,7 @@ import Help from './components/Help';
 import Design from './components/Design';
 import Customers from './components/Customers';
 import Marketing from './components/Marketing';
-
+import Demo from './components/Demo'
 
 
 function App() {
@@ -28,6 +28,7 @@ function App() {
     <Design/>
     <Customers/>
     <Marketing/>
+    <Demo/>
     <Footer/>
     </>
   );

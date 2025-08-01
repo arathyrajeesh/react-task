@@ -13,7 +13,7 @@ const Home = () => {
                         <button className="register-button">Register</button>
                     </div>
                     <div className='home-logo'>
-                        <img src='/images/Home.jpg' alt='Illustration of a person looking at a computer screen with code and data.'/>
+                        <img src='/images/Home.jpg'/>
                     </div>
                 </div>
             </div>

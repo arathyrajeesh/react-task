@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer-top">
                 <div className="footer-brand">
-                    <img src='/images/logo.svg' alt="Nexcent logo" />
+                    <img src='/images/logo.svg' />
                     <h3>Nexcent</h3>
                     <p>Copyright © 2020 Landify UI Kit.<br/>All rights reserved</p>
                 </div>

@@ -15,17 +15,17 @@ const Marketing = () => {
                 </p>
                 <div className="blog-cards">
                     <div className="card">
-                        <img src="/images/marketing1.jpg" alt="A person sitting on a couch reading a book."/>
+                        <img src="/images/marketing1.jpg" />
                         <h3>Creating Streamlined Safeguarding Processes with OneRen</h3>
                         <a href="#">Readmore </a>
                     </div>
                     <div className="card">
-                        <img src="/images/marketing2.jpg" alt="Two people working on a laptop, discussing a graph."/>
+                        <img src="/images/marketing2.jpg" />
                         <h3>What are your safeguarding responsibilities and how can you manage them?</h3>
                         <a href="#">Readmore </a>
                     </div>
                     <div className="card">
-                        <img src="/images/marketing3.png" alt="A person from a bird's eye view working on a laptop."/>
+                        <img src="/images/marketing3.png"/>
                         <h3>Revamping the Membership Model with Triathlon Australia</h3>
                         <a href="#">Readmore </a>
                     </div>
