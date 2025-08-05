@@ -1,5 +1,6 @@
+import { MarketingData } from '../data/marketing';
 import '../styles/marketing.css';
-
+import MarketingCard from './MarketingCard';
 
 
 
@@ -14,21 +15,9 @@ const Marketing = () => {
                     are increasing their membership income and lots more.
                 </p>
                 <div className="blog-cards">
-                    <div className="card">
-                        <img src="/images/marketing1.jpg" />
-                        <h3>Creating Streamlined Safeguarding Processes with OneRen</h3>
-                        <a href="#">Readmore </a>
-                    </div>
-                    <div className="card">
-                        <img src="/images/marketing2.jpg" />
-                        <h3>What are your safeguarding responsibilities and how can you manage them?</h3>
-                        <a href="#">Readmore </a>
-                    </div>
-                    <div className="card">
-                        <img src="/images/marketing3.png"/>
-                        <h3>Revamping the Membership Model with Triathlon Australia</h3>
-                        <a href="#">Readmore </a>
-                    </div>
+                    {
+                        MarketingData.map((item,idx) => <MarketingCard data={item} key={idx}/>)
+                    }
                 </div>
             </div>
         </section>
